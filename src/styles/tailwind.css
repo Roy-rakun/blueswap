@@ -1,0 +1,20 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Light Theme */
+body {
+  background: linear-gradient(135deg, #fda5f0, #76b2f5);
+  color: #374151;
+}
+
+/* Dark Theme */
+.dark body {
+  background: linear-gradient(135deg, #1E3A8A, #6D28D9);
+  color: #F3F4F6;
+}
+
+html, body {
+    height: 100%;
+    margin: 0;
+  }
